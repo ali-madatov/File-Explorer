@@ -97,6 +97,7 @@ namespace HW3
 
         private void showItems(string directoryInfo)
         {
+            //reseting textbox parameters as the new item is clicked
             tbName.Text = " ";
             tbCreation.Text = " ";
             tbContent.Text = " ";
